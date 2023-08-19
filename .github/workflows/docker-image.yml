@@ -28,4 +28,4 @@ jobs:
         docker build -t kroyx/docker-graphql:0.0.2 .
     - name: Push Docker Image
       run: |
-        docker push kroyx/docker-graphql:0.0.2 .
+        docker push kroyx/docker-graphql:0.0.2
